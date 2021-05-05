@@ -1,0 +1,171 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "my smart fan",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "paramIntent",
+          "slots": [
+            {
+              "name": "param",
+              "type": "param"
+            }
+          ],
+          "samples": [
+            "is {param} off",
+            "is {param} on",
+            "what are the room {param}",
+            "what is the {param}",
+            "what is the {param} speed"
+          ]
+        },
+        {
+          "name": "setIntent",
+          "slots": [
+            {
+              "name": "param",
+              "type": "param"
+            },
+            {
+              "name": "setters",
+              "type": "setters"
+            }
+          ],
+          "samples": [
+            "{param} fan mode to {setters}",
+            "{param} fan speed to {setters}",
+            "{param} {setters} the fan"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "switch"
+              }
+            },
+            {
+              "name": {
+                "value": "the fan"
+              }
+            },
+            {
+              "name": {
+                "value": "conditions"
+              }
+            },
+            {
+              "name": {
+                "value": "auto"
+              }
+            },
+            {
+              "name": {
+                "value": "mode"
+              }
+            },
+            {
+              "name": {
+                "value": "manual"
+              }
+            },
+            {
+              "name": {
+                "value": "set"
+              }
+            },
+            {
+              "name": {
+                "value": "humidity"
+              }
+            },
+            {
+              "name": {
+                "value": "temperature"
+              }
+            },
+            {
+              "name": {
+                "value": "current"
+              }
+            }
+          ],
+          "name": "param"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "manual"
+              }
+            },
+            {
+              "name": {
+                "value": "auto"
+              }
+            },
+            {
+              "name": {
+                "value": "five"
+              }
+            },
+            {
+              "name": {
+                "value": "four"
+              }
+            },
+            {
+              "name": {
+                "value": "three"
+              }
+            },
+            {
+              "name": {
+                "value": "two"
+              }
+            },
+            {
+              "name": {
+                "value": "one"
+              }
+            },
+            {
+              "name": {
+                "value": "off"
+              }
+            },
+            {
+              "name": {
+                "value": "on"
+              }
+            }
+          ],
+          "name": "setters"
+        }
+      ]
+    }
+  },
+  "version": "6"
+}
