@@ -10,4 +10,4 @@ This project lets Alexa to change speed, mode, switch ON and OFF the fan. The fa
 #### Invocation: open my smart fan
 #### Supported Intents till date
 
->> Is the fan off? [ Tells whether the fan is ON/OFF  ]
+>>> Is the fan off? [ Tells whether the fan is ON/OFF  ]
