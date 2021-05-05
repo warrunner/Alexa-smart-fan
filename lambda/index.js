@@ -10,14 +10,14 @@ require('firebase/database');
 // PLEASE FILL IN YOUR VALUES INSIDE CONFIG OBJECT. REFER TO THIS TUTORIAL TO GET STARTED : 
 
 const config = {
-  apiKey: "AIzaSyAlYCUz75GzX88uoGpIxLo1R8svqfDK2cM",
-  authDomain: "smart-fan-b5f78.firebaseapp.com",
-  databaseURL: "https://smart-fan-b5f78-default-rtdb.firebaseio.com",
-  projectId: "smart-fan-b5f78",
-  storageBucket: "smart-fan-b5f78.appspot.com",
-  messagingSenderId: "518342734632",
-  appId: "1:518342734632:web:b80d658c6d6f5be5c4961d",
-  measurementId: "G-REFBZ245WP",
+   apiKey: "API_KEY",
+   authDomain: "PROJECT_ID.firebaseapp.com",
+   databaseURL: "https://PROJECT_ID.firebaseio.com",
+   projectId: "PROJECT_ID",
+   storageBucket: "PROJECT_ID.appspot.com",
+   messagingSenderId: "SENDER_ID",
+   appId: "APP_ID",
+   measurementId: "G-MEASUREMENT_ID",
 };
 
 firebase.initializeApp(config);
